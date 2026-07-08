@@ -17,7 +17,7 @@ It is the missing definition behind a field both MVPs already use: every Data As
 | Public | Approved for unrestricted external release. No harm from disclosure. | Published marketing content, public product pages, already-released reports. |
 | Internal | Intended for use inside the organization. Limited harm if it leaked externally, but not meant to be shared freely. | Internal procedures, working documents, non-sensitive operational metrics. |
 | Confidential | Disclosure could cause real business, customer, or competitive harm. | Customer records, financial reports before release, contracts, most business-critical datasets. |
-| Restricted | Disclosure could cause severe harm: regulatory, financial, safety, or reputational. | Authentication secrets, highly sensitive personal data, material non-public information. |
+| Restricted | Disclosure could cause severe harm: regulatory, financial, safety, or reputational. | Authentication secrets, highly sensitive personal data, undisclosed strategic or financial plans. |
 
 ## Minimum Handling Expectations
 
