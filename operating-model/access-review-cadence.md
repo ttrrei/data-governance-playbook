@@ -8,7 +8,9 @@ Granting access is a decision at a point in time. A review cadence is what check
 * A review that happens on paper but never actually removes anything is not a control, it's a scheduled formality.
 * Restricted and privileged access carry enough risk that they need a materially tighter cadence than everyday access.
 
-## Review Schedule
+## Suggested Review Schedule
+
+Treat these frequencies as a reasonable starting point, not a fixed rule — adjust for your organization's actual scale and risk tolerance, and tighten or loosen from here rather than starting from zero.
 
 | Access type | Review frequency | Reviewer |
 | --- | --- | --- |
