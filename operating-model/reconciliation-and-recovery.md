@@ -41,7 +41,7 @@ When data is found missing, duplicated, corrupted, or inconsistent:
 
 ## Minimum Output
 
-No new artifact is required. Log reconciliation breaks and recovery events through the existing Issue Log.
+No new artifact is required. Log reconciliation discrepancies and recovery events through the existing Issue Log.
 
 ## Rule of Thumb
 
