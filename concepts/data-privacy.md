@@ -12,6 +12,8 @@ It is distinct from data classification: classification protects data based on b
 
 ## Key Terms
 
+These terms originate from EU-style privacy law but are widely used as shorthand elsewhere; some jurisdictions use different labels for the same distinction (for example, "business" and "service provider" in place of controller and processor).
+
 | Term | Definition |
 | --- | --- |
 | Personal data | Any information relating to an identified or identifiable individual. |
