@@ -2,7 +2,7 @@
 
 Data ownership assigns accountability for data meaning, quality expectations, access decisions, lifecycle rules, and issue resolution.
 
-Ownership is accountability, not day-to-day execution. The three roles that split this work are already defined in `operating-model/roles-and-responsibilities.md`: the **Data owner** is accountable, the **Data steward** does the day-to-day definition and quality work, and the **Technical custodian** runs the underlying platform. For a worked example of how to anchor ownership to a business function (revenue, customer, product, and so on), see the Ownership section of `mvps/general-enterprise-mvp.md`.
+Ownership is accountability, not day-to-day execution. The three roles that split this work are already defined in `operating-model/roles-and-responsibilities.md`: the **Data owner** is accountable, the **Data steward** does the day-to-day definition and quality work, and the **Technical custodian** (called "Technical owner" in the MVP docs' Ownership Register — same role, different label) runs the underlying platform. For a worked example of how to anchor ownership to a business function (revenue, customer, product, and so on), see the Ownership section of `mvps/general-enterprise-mvp.md`.
 
 ## Why It Matters
 
