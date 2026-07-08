@@ -253,7 +253,9 @@ data-governance-playbook/
 │   ├── access-review-cadence.md
 │   ├── kpi-library.md
 │   ├── raci.md
-│   └── reconciliation-and-recovery.md
+│   ├── reconciliation-and-recovery.md
+│   ├── evidence-and-audit-readiness.md
+│   └── implementation-roadmap.md
 ├── anti-patterns/
 │   ├── common-governance-anti-patterns.md
 │   └── publishing-checklist.md
