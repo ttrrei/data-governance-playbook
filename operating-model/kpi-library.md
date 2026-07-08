@@ -37,15 +37,7 @@ Add these only once the starter set is established and reported consistently. Th
 * Recurring-issue count by root-cause category.
 * Stakeholder satisfaction with governance processes.
 
-## KPI Definition Template
-
-When defining any KPI, capture:
-
-* **Name** and what it measures.
-* **Formula or method.**
-* **Data source.**
-* **Reporting frequency.**
-* **Owner** (who is accountable for the number being right and current).
+If you add a KPI beyond the starter set, define at minimum what it measures, how it's calculated, its data source, and who owns the number — otherwise it will drift out of date the way undocumented metrics always do.
 
 ## Minimum Output
 
