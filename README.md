@@ -156,7 +156,8 @@ Core focus areas:
 * Data quality rules
 * Metric and KPI definitions
 * Basic data lineage
-* Access control and sensitive data classification
+* Data classification, access control, and privacy
+* Data lifecycle and retention
 * Governance roles and operating cadence
 
 Objective:
@@ -184,7 +185,7 @@ Core focus areas:
 * Data quality requirements for AI use cases
 * Data catalog for AI-consumable assets
 * Data lineage for model inputs, features, prompts, embeddings, and outputs
-* Sensitive data and privacy controls
+* Sensitive data classification, privacy, and lifecycle controls
 * Access governance for AI systems
 * Semantic consistency across business terms and AI applications
 * Human review and approval workflows for high-risk data usage
