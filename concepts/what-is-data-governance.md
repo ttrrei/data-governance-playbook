@@ -4,6 +4,11 @@ Data governance is the system of decision rights, accountabilities, standards, c
 
 See the README's "What is Data Governance?" section for the full list of what a governance program typically includes (ownership, catalog, glossary, quality, lineage, access control, lifecycle, and operating model). This page focuses on a narrower, frequently misunderstood question: what governance is *not*.
 
+## Why It Matters
+
+* Most governance programs that stall didn't fail on principle — they failed because someone treated a tool purchase, a policy document, or a one-time project as if it were the whole job.
+* Knowing what governance is not makes it easier to spot when an initiative has quietly turned into one of these substitutes instead of the real thing.
+
 ## What Governance Is Not
 
 | Misconception | Why it's wrong |
