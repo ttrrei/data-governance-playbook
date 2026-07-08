@@ -1,3 +1,5 @@
+# Common Governance Anti-patterns
+
 ## Governance vs Data Management
 
 Before discussing anti-patterns, it is useful to distinguish data governance from data management.
@@ -114,6 +116,30 @@ You may be falling into this anti-pattern if you hear statements like:
 
 ---
 
+### 9. Treating Privacy as a Legal-only Topic
+
+#### Warning Signs
+
+You may be falling into this anti-pattern if you hear statements like:
+
+* "Privacy is Legal's problem, not ours."
+* "As long as we published a privacy notice, we're covered."
+* "Nobody needs to check before using customer data to train or fine-tune a model."
+
+---
+
+### 10. Provisioning Access Without a Review Cadence
+
+#### Warning Signs
+
+You may be falling into this anti-pattern if you hear statements like:
+
+* "We approve access requests, but we don't really re-check them later."
+* "Nobody's access has ever actually been removed after the initial grant."
+* "The access review happens, but it's really just approving the whole list."
+
+---
+
 ## Anti-pattern Relationship Matrix
 
 Some anti-patterns are not isolated. One weak governance practice often creates or amplifies another.
@@ -129,6 +155,8 @@ Some anti-patterns are not isolated. One weak governance practice often creates 
 | Applying the same governance model to all data  | Trying to govern everything at once                   | A uniform model usually expands scope too broadly and makes governance too heavy.                                                                         |
 | Ignoring AI-specific data risks                 | Applying the same governance model to all data        | Treating AI data usage like traditional BI ignores additional risks around lineage, retrieval, sensitivity, and model behavior.                           |
 | Ignoring AI-specific data risks                 | Creating policies without operational workflows       | AI governance principles are ineffective unless they are translated into data source approval, access review, lineage tracking, and monitoring workflows. |
+| Treating privacy as a legal-only topic          | Ignoring AI-specific data risks                        | Privacy exposure is most visible exactly where AI or analytics teams reuse personal data in new contexts, such as training or embeddings, that Legal never reviewed. |
+| Provisioning access without a review cadence    | Creating policies without operational workflows       | An access policy that says reviews "happen periodically" with no defined cadence, reviewer, or removal step is a policy without a workflow behind it. |
 
 ---
 
@@ -141,5 +169,7 @@ If a governance program shows one anti-pattern, check whether related anti-patte
 * If governance is treated as an IT-only initiative, check whether the governance council has real business decision rights.
 * If success is measured by catalog coverage, check whether the team is trying to govern too much at once.
 * If AI use cases are moving quickly, check whether existing data governance controls are sufficient for AI-specific risks.
+* If privacy is treated as a legal-only topic, check whether AI or analytics teams are reusing personal data in ways nobody has reviewed.
+* If access reviews happen on schedule but access is never actually removed, check whether the review has real decision rights or is just a formality.
 
 The goal is not to eliminate every anti-pattern immediately. The goal is to identify the highest-risk failure mode and correct it before scaling the governance program.
