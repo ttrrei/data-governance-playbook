@@ -198,12 +198,12 @@ Objective:
 
 ## MVP Reference Versions
 
-As of the planned initial release date, 2026-05-31, this repository currently provides two MVP reference versions:
+This repository currently provides two MVP reference versions:
 
 | MVP Version                            | Purpose                                                                                                    | Target Scenario                         |
 | -------------------------------------- | ---------------------------------------------------------------------------------------------------------- | --------------------------------------- |
 | General Enterprise Data Governance MVP | Establish a minimum viable governance foundation for enterprise reporting, analytics, and data management. | General enterprise data governance      |
-| AI-Ready Data Governance MVP           | Establish a minimum viable governance foundation for AI, ML, GenAI, RAG, and agentic AI use cases.         | AI-required or AI-enabled organizations |
+| AI-Ready Data Governance MVP           | Establish a minimum viable governance foundation for AI, ML, GenAI, RAG, and agentic AI use cases.         | AI-ready or AI-enabled organizations    |
 
 ---
 
@@ -235,6 +235,9 @@ data-governance-playbook/
 ├── concepts/
 │   ├── what-is-data-governance.md
 │   ├── governance-capability-matrix.md
+│   ├── data-classification.md
+│   ├── data-privacy.md
+│   ├── data-lifecycle.md
 │   ├── data-quality.md
 │   ├── data-catalog.md
 │   ├── data-lineage.md
@@ -245,15 +248,22 @@ data-governance-playbook/
 │   ├── roles-and-responsibilities.md
 │   ├── governance-forum.md
 │   ├── decision-rights.md
-│   └── issue-management.md
+│   ├── issue-management.md
+│   ├── access-review-cadence.md
+│   ├── kpi-library.md
+│   ├── raci.md
+│   └── reconciliation-and-recovery.md
 ├── anti-patterns/
-│   └── common-governance-anti-patterns.md
+│   ├── common-governance-anti-patterns.md
+│   └── publishing-checklist.md
 └── templates/
     ├── data-domain-template.md
     ├── data-product-template.md
     ├── data-quality-rule-template.md
     ├── glossary-template.md
-    └── data-lineage-template.md
+    ├── data-lineage-template.md
+    ├── access-request-template.md
+    └── data-issue-template.md
 ```
 
 ---
@@ -305,3 +315,11 @@ Out of scope for the initial version:
 * Industry-specific governance frameworks
 * Advanced AI model governance
 * Full data management operating model across all enterprise domains
+
+---
+
+## Beyond This MVP
+
+Some organizations will eventually outgrow this MVP. What usually comes next is heavier: coordinated domain-by-domain standards, a dedicated catalog and lineage platform, formal enterprise policy documents, and dedicated governance tooling.
+
+This repository intentionally stops before that layer. If a program reaches that point, the artifacts here should be the foundation that heavier work builds on — not something to replace with a bigger framework before the MVP itself is actually working.
